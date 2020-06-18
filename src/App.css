@@ -11,6 +11,18 @@
   padding: 5px;
   margin: 5px;
 }
+
+.Layout{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.GameSection{
+  display: flex;
+  flex-direction: row;
+}
+
 .GameContainer{
 background-color: solid black;
 margin: auto;
@@ -18,6 +30,7 @@ width: 100%;
 display: flex;
 justify-content: center;
 }
+
 
 .App-logo {
   height: 40vmin;

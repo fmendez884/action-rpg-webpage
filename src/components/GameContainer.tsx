@@ -3,6 +3,7 @@ import ReactDom from "react-dom"
 import { connect } from "react-redux";
 
 import DummyWebPlayer from "./DummyWebPlayer";
+import GobletFire from "./GobletFire";
 
 
 export default class GameContainer extends React.Component {
