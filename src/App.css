@@ -1,5 +1,21 @@
 .App {
   text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#DummyWebPlayer{
+  background-color: aqua;
+  width: 960px;
+  height: 600px;
+  border: 5px solid red;
+  padding: 5px;
+  margin: 5px;
+}
+.GameContainer{
+background-color: solid black;
+margin: auto;
+width: 100%;
+display: flex;
 }
 
 .App-logo {
