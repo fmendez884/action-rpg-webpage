@@ -7,12 +7,16 @@ import GameContainer from "./GameContainer";
 import GobletFire from "./GobletFire";
 import GameSection from "./GameSection";
 
+import DamnationWebPlayer from "./DamnationWebPlayer";
+
 export default class Layout extends React.Component {
     render() {
         return (
             <div className="Layout">
                 <Header></Header>
                 <GameSection></GameSection>
+                {/* <DamnationWebPlayer></DamnationWebPlayer> */}
+                {/* <GameContainer></GameContainer> */}
             </div>
         );
     }
