@@ -7,7 +7,7 @@ import gobletFire from "../images/goblet-fire.gif";
 export default class GobletFire extends React.Component {
     render() {
         return (
-            <div style={{width: 100}}>
+            <div>
                 <img className="gobletFireImage" src={gobletFire}></img>
             </div>
         );

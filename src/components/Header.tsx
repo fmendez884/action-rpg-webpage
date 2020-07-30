@@ -9,7 +9,7 @@ export default class Header extends React.Component {
     render() {
         return (
             <div className="Header">
-                <h1>Sup, My Planet</h1>
+                <h1 className="title">-DAMNATION-</h1>
                 <NavBar></NavBar>
             </div>
         );
